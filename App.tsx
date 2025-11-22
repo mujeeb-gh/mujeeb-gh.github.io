@@ -29,7 +29,7 @@ const App: React.FC = () => {
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img 
-              src="/images/profile.jpg" 
+              src="/images/pfp.jpg" 
               onError={(e) => {
                 // Fallback if local image isn't found
                 e.currentTarget.src = 'https://picsum.photos/200'; 
@@ -73,10 +73,10 @@ const App: React.FC = () => {
               AI Engineer • Researcher • Educator
             </div>
             <h1 className="font-serif text-5xl md:text-6xl leading-tight mb-6 text-textMain">
-              Bridging the gap between <span className="text-primary italic">theory</span> and <span className="text-primary italic">practice</span>.
+              How do humans <span className="text-primary italic">learn</span> to <span className="text-primary italic">learn</span>?
             </h1>
             <p className="text-lg md:text-xl text-textMuted mb-8 leading-relaxed max-w-lg">
-              I build trustworthy AI systems that empower people to learn how to learn. My focus is on reducing hallucination in RAG systems and democratizing education in Africa.
+              I am learning to build AI systems that empower people to learn how to learn. My focus is on improving AI trustworthiness in academia and education.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button href="#research">View Research</Button>
@@ -303,6 +303,7 @@ const App: React.FC = () => {
             <p>© {new Date().getFullYear()} Olamide Balogun. Built with React & Tailwind.</p>
             <p className="italic">"Knowing is not enough; we must apply."</p>
           </div>
+          <p className="text-sm text-stone-500 pt-4">UI inspired by Anthropic's claude's UI.</p>
         </div>
       </footer>
     </div>
