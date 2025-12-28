@@ -1,4 +1,5 @@
-import { Experience } from '../types';
+import { Experience } from "../types";
+import React from "react";
 
 export const experience: Experience[] = [
   {
@@ -7,11 +8,11 @@ export const experience: Experience[] = [
     company: "Lendsqr",
     period: "Mar 2025 – Present",
     description: [
-      "Bridging the gap between technical engineering teams and customer requirements.",
-      "Analyzing system performance to inform product roadmap decisions.",
-      "Implementing AI-driven tools to streamline internal operations."
+      "Architected an AI support system using RAG on 15,000+ tickets with Gemini embeddings and Supabase.",
+      "Automated Play Store review collection and AI sentiment reporting, reducing manual work by ~50%.",
+      "Manage product operations for 3+ fintech lenders with ₦2M+ in monthly loan volume.",
     ],
-    type: "Work"
+    type: "Work",
   },
   {
     id: "lendsqr-intern",
@@ -19,23 +20,23 @@ export const experience: Experience[] = [
     company: "Lendsqr",
     period: "Aug 2024 – Feb 2025",
     description: [
-      "Developed and maintained fintech APIs.",
-      "Built the AI Customer Support RAG system, reducing triage time by 60%.",
-      "Collaborated with senior engineers to optimize database queries."
+      "Built and self-hosted an internal RAG chatbot on Azure AI, replacing a paid GPT tool and saving ₦160,000+ in six months.",
+      "Maintained 35+ private repos, enforcing branch protections and SonarQube code quality checks.",
+      "Managed the API gateway (API Umbrella), standardising access and cleaning configs for 160+ users and services.",
     ],
-    type: "Internship"
+    type: "Internship",
   },
   {
     id: "ecobank-intern",
     role: "Machine Learning Intern",
-    company: "eProcess, Ecobank",
+    company: "eProcess, Ecobank Transnational Inc",
     period: "June 2023 – Sept 2023",
     description: [
-      "Assisted in developing fraud detection models.",
-      "Cleaned and preprocessed large financial datasets for training.",
-      "Gained foundational experience in enterprise-scale AI deployment."
+      "Built a salary prediction model in Scikit-learn with 91% R-squared.",
+      "Developed a facial recognition prototype with OpenCV and Deepface, reaching ~70% test accuracy.",
+      "Built an IBM Watson chatbot handling 3 transaction modes with full invalid-input handling.",
     ],
-    type: "Internship"
+    type: "Internship",
   },
   {
     id: "nacos-lead",
@@ -47,6 +48,6 @@ export const experience: Experience[] = [
       "Authored 'Mastering Final Year Projects' guide, impacting 100+ students.",
       "Organized hackathons to bridge theoretical CS knowledge with practical coding skills."
     ],
-    type: "Leadership"
-  }
+    type: "Leadership",
+  },
 ];
