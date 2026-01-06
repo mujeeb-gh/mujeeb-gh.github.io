@@ -115,7 +115,7 @@ const App: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-6 text-lg text-textMuted leading-relaxed">
             <p>
-              I am Olamide, currently working as a <strong>Product Operations Officer at Lendsqr</strong>. I graduated with a First Class in Computer Science from Afe Babalola University (4.88/5.0).
+              I am Olamide, an AI Research Engineer in training. Right now, I am focused on strengthening my foundations in Deep Learning while building projects and exploring research around trustworthy AI, Retrieval-Augmented Generation, and Agentic AI.
             </p>
             <p>
               I am passionate about building reliable AI systems. In doing so, I am learning about the core architecture of foundation models, their weaknesses and how to mitigate them.

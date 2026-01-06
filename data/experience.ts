@@ -6,7 +6,7 @@ export const experience: Experience[] = [
     id: "lendsqr-po",
     role: "Product Operations Officer",
     company: "Lendsqr",
-    period: "Mar 2025 – Present",
+    period: "Mar 2025 – Dec 2025",
     description: [
       "Architected an AI support system using RAG on 15,000+ tickets with Gemini embeddings and Supabase.",
       "Automated Play Store review collection and AI sentiment reporting, reducing manual work by ~50%.",
